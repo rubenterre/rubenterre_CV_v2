@@ -1,3 +1,8 @@
+<script>
+  import Variables from "../styles/Variables.svelte";
+</script>
+<Variables/>
+
 <section class="experiencia">
     <div class="experiencia__date">
         <h4 class="experiencia__">ACTUALIDAD</h4>
@@ -14,7 +19,7 @@
     </div>
 </section>
 
-<style lang="scss">
+<style>
     .experiencia{
         display: flex;
         justify-content: space-between;

@@ -1,6 +1,8 @@
 <script>
+  import Variables from "./styles/Variables.svelte";
 
 </script>
+<Variables/>
 
 <section class="cabecera">
 	<div class="cabecera__titulo">
@@ -52,34 +54,7 @@
 
 
 
-<style lang="scss">
-
-@import './styles/variables.scss';
-
-@font-face {
-    font-family: Poppins-Semi;
-    src: url('../fonts/Poppins-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: Poppins-Medium;
-    src: url('../fonts/Poppins-Medium.ttf');
-}
-
-@font-face {
-    font-family: Poppins-Regular;
-    src: url('../fonts/Poppins-Regular.ttf');
-}
-
-@font-face {
-    font-family: Poppins-Light;
-    src: url('../fonts/Poppins-Light.ttf');
-}
-
-@font-face {
-    font-family: Poppins-Italic;
-    src: url('../fonts/Poppins-Italic.ttf');
-}
+<style>
 
     :global(body) {
 		background-color: colorPrincipal;
