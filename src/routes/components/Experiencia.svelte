@@ -41,7 +41,7 @@
 
     .experiencia__h4{
   font-family: var(--fuente-regular);
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: normal;
   color: var(--color-secundario);
   margin:0px;
@@ -56,7 +56,7 @@
 
 .experiencia__h2{
     font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-size: 1rem;
   font-weight: normal;
   color: white;
   margin:0px;
@@ -68,7 +68,7 @@
 
 .experiencia__profesion{
     font-family: var(--fuente-regular);
-    font-size: .8rem;
+    font-size: 1rem;
   font-weight: normal;
   color: var(--color-secundario);
   margin-top: 5px;
@@ -76,7 +76,7 @@
 
 .experiencia__descripcion{
     font-family: var(--fuente-regular);
-    font-size: .8rem;
+    font-size: 1rem;
   color: var(--color-secundario);
   font-weight: normal;
   font-stretch: normal;
@@ -92,14 +92,16 @@
 
 .pills__contenedor{
   margin: 5px 5px 5px 0px;
-  padding: 0px 20px;
-  border-radius: 12px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
   background-color: var(--color-cuaternario);
 }
 
 .pills__p{
     font-family: var(--fuente-regular);
-    font-size: .6rem;
+    font-size: .9rem;
     color: var(--color-terciario);
+    padding: 0.25rem 0.75rem;
+    margin: 0px;
 }
 </style>
