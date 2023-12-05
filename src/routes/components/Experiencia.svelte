@@ -9,13 +9,23 @@
 
 </script>
 <Variables/>
+
+<div class="experiencia__titulo">
+    <div>
+        <h2 class="experiencia__h2">EXPERIENCIA</h2>
+    </div>
+    <div>
+        <img src="combined-shape@2x.webp" alt="Flecha que indica que te puedes mover el scroll de forma horizontal" title="Flecha que indica que te puedes mover de forma horizontal">
+    </div>
+</div>
+<section id="experiencia">
 {#each experiencia as item }
-<section class="experiencia">
+<div class="experiencia">
     <div class="experiencia__date">
         <h4 class="experiencia__h4">{item.date}</h4>
     </div>
     <div class="experiencia__detalles">
-        <h2 class="experiencia__h2"><a href="{item.web}">{item.empresa}<img src="./flecha.svg" alt="flecha de enlace"></a></h2>
+        <h3 class="experiencia__h3"><a class="experiencia__h3" href="{item.web}">{item.empresa}<img src="./flecha.svg" alt="flecha de enlace"></a></h3>
         <p class="experiencia__profesion">{item.profesion}</p>
         <p class="experiencia__descripcion">{item.descripcion}</p>
         <div class="pills">
@@ -26,12 +36,25 @@
             {/each}
         </div>
     </div>
-</section>
+</div>
 {/each}
+</section>
 <style>
-    .experiencia{
+    #experiencia{
+    overflow-x: auto;
+    /* white-space: nowrap; */
+    display: flex;
+    }
+
+    .experiencia__titulo{
         display: flex;
         justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .experiencia{
+        display: flex;
+        justify-content: center;
         margin: 40px 0px;
     }
 
@@ -41,7 +64,7 @@
 
     .experiencia__h4{
   font-family: var(--fuente-regular);
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: normal;
   color: var(--color-secundario);
   margin:0px;
@@ -55,20 +78,36 @@
 }
 
 .experiencia__h2{
-    font-family: var(--fuente-regular);
-    font-size: 1rem;
+    font-family: var(--fuente-semibold);
+    font-size: 0.8rem;
   font-weight: normal;
   color: white;
   margin:0px;
 }
 
-.experiencia__h2 img{
+.experiencia__h3{
+    font-family: var(--fuente-regular);
+    font-size: 0.8rem;
+  font-weight: normal;
+  color: white;
+  margin:0px;
+}
+
+.experiencia__h3:hover{
+    font-family: var(--fuente-semibold);
+    font-size: 0.8rem;
+  font-weight: normal;
+  color: white;
+  margin:0px;
+}
+
+.experiencia__h3 img{
     padding-left: 20px;
 }
 
 .experiencia__profesion{
     font-family: var(--fuente-regular);
-    font-size: 1rem;
+    font-size: 0.8rem;
   font-weight: normal;
   color: var(--color-secundario);
   margin-top: 5px;
@@ -76,7 +115,7 @@
 
 .experiencia__descripcion{
     font-family: var(--fuente-regular);
-    font-size: 1rem;
+    font-size: 0.8rem;
   color: var(--color-secundario);
   font-weight: normal;
   font-stretch: normal;
@@ -99,7 +138,7 @@
 
 .pills__p{
     font-family: var(--fuente-regular);
-    font-size: .9rem;
+    font-size: .7rem;
     color: var(--color-terciario);
     padding: 0.25rem 0.75rem;
     margin: 0px;

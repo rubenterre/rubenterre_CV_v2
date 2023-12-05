@@ -32,10 +32,9 @@
     align-items: center;
   }
 
-  /* .cabecera__titulo{
-        position: fixed;
-        left: 10%;
-    } */
+  .cabecera__titulo{
+    margin: 40px 0px;
+    } 
 
   .cabecera__logo {
     padding-right: 1rem;

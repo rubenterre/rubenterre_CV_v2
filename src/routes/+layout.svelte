@@ -17,7 +17,7 @@
     background-color: var(--color-principal);
     color: var(--color-secundario);
     font-family: var(--fuente-regular);
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px 5%;
   }
 

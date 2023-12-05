@@ -103,6 +103,12 @@
     background-color: transparent;
   }
 
+  .menu__hr{
+    width: 80px;
+    border: 1px solid var(--color-secundario);
+    margin-right: 10px;
+  }
+
   .menu__hr:hover{
     width: 80px;
     border: 1px solid white;
@@ -120,6 +126,7 @@
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--color-secundario);
+    transition: all 1s ease-in-out;
   }
 
   .navbar-item:hover {
@@ -137,6 +144,7 @@
     font-weight: 600;
     color: white;
     background-color: transparent;
+    transition: all 1s ease-in-out;
   }
 
   .button{

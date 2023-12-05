@@ -39,11 +39,11 @@
 
   .perfil__p {
     font-family: var(--fuente-regular);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: normal;
     color: var(--color-secundario);
     padding-top: 16px;
-    margin: 20px 30px 0px 0px;
+    margin: 20px 0px 0px 0px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -55,7 +55,7 @@
 
   .perfil__span {
     font-family: var(--fuente-semi);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: normal;
     color: white;
     line-height: 1.625;
