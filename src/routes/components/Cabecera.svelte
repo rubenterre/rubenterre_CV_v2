@@ -1,3 +1,7 @@
+<script>
+  import Redes from "./Redes.svelte";
+
+</script>
 <div class="cabecera__titulo">
     <div class="cabecera__principal">
       <div class="cabecera__logo">
@@ -17,40 +21,8 @@
         Inspirando conocimiento, creando diseño y desarrollando la web.
       </p>
     </div>
-    <div class="cabecera__menu">
-      <ul class="cabecera__ul">
-        <li class="cabecera__li">
-          <a class="cabecera__a cabecera__a--nav" href="#">¿QUIÉN SOY?</a>
-        </li>
-        <li class="cabecera__li">
-          <a class="cabecera__a cabecera__a--nav" href="#">EXPERIENCIA</a>
-        </li>
-        <li class="cabecera__li">
-          <a class="cabecera__a cabecera__a--nav" href="#">PORTFOLIO</a>
-        </li>
-        <li class="cabecera__li">
-          <a class="cabecera__a cabecera__a--nav" href="#">EDUCACIÓN</a>
-        </li>
-        <li class="cabecera__li">
-          <a class="cabecera__a cabecera__a--nav" href="#">CONTACTO</a>
-        </li>
-      </ul>
-    </div>
 
-    <div class="redes">
-      <a href="https://github.com/rubenterre"
-        ><img src="github.svg" alt="Github de Rubén Terré" /></a
-      >
-      <a href="https://www.behance.net/rubenterre"
-        ><img src="behance.svg" alt="Behance de Rubén Terré" /></a
-      >
-      <a href="https://www.linkedin.com/in/rubenterrelameiro"
-        ><img src="linkedin.svg" alt="Linkedin de Rubén Terré" /></a
-      >
-      <a href="https://www.instagram.com/rubenterre.studiodesign/"
-        ><img src="instagram.svg" alt="Instagram de Rubén Terré" /></a
-      >
-    </div>
+<Redes/>
   </div>
 
   <style>
@@ -74,7 +46,7 @@
 
   .cabecera__nombre {
     font-family: var(--fuente-semibold);
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -121,43 +93,5 @@
     padding: 15px 0px;
     line-height: 1.43;
   }
-
-  .cabecera__menu {
-    margin-top: 89px;
-  }
-
-  .cabecera__ul {
-    list-style-type: none;
-  }
-
-  .cabecera__a {
-    font-family: var(--fuente-regular);
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--color-secundario);
-  }
-
-  .cabecera__a:hover {
-    font-family: var(--fuente-semibold);
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: white;
-  }
-
-  .cabecera__a:active {
-    font-family: var(--fuente-semibold);
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: white;
-  }
-
-  .redes {
-    position: fixed;
-    bottom: 10px;
-    display: flex;
-  }
-
-  .redes a {
-    padding-right: 19px;
-  }
+ 
   </style>

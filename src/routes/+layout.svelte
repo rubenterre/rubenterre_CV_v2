@@ -1,17 +1,15 @@
 <script>
   import Cabecera from "./components/Cabecera.svelte";
+  import Menu from "./components/Menu.svelte";
   import Variables from "./components/Variables.svelte";
 </script>
 
 <Variables />
+<Menu/>
 
-<section class="cabecera">
-  <div class="cabecera__logo">
+<section class="cabecera" id="cebecera">
     <Cabecera />
-  </div>
-  <div class="cabecera__detalle">
-      <slot />
-  </div>
+    <slot />
 </section>
 
 <style>
@@ -20,7 +18,7 @@
     color: var(--color-secundario);
     font-family: var(--fuente-regular);
     font-size: 16px;
-    padding: 5% 10%;
+    padding: 10px 5%;
   }
 
   :global(a) {
@@ -31,11 +29,7 @@
 
   .cabecera {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 10%;
+    flex-direction: column;
   }
 
-  .cabecera__detalle{
-    max-width: 437px;
-  }
 </style>
