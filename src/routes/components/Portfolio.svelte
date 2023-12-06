@@ -50,9 +50,9 @@
   <div class="portfolio__titulo">
     <h2 class="portfolio__h2">PORTFOLIO</h2>
   </div>
-  <div class="portfolio columns">
-      {#each portfolio as item}
-      <div class="column is-half">
+  <div class="portfolio columns is-mobile">
+    {#each portfolio as item}
+    <div class="column is-half">
         <div class="portfolio__tarjeta">
           <div class="portfolio__img">
             <img src={item.img} alt={item.alt} />
@@ -68,8 +68,8 @@
             </p>
           </div>
         </div>
-    </div>
-      {/each}
+      </div>
+        {/each}
   </div>
   <div class="portfolio__enlace">
     <a class="portfolio__a" href="#"

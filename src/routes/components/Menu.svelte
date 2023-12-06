@@ -95,9 +95,9 @@
 
   <style>
 
-  .navbar{
+  /* .navbar{
     margin-bottom: 30px;
-  }  
+  }   */
 
   .is-transparent{
     background-color: transparent;
