@@ -60,6 +60,7 @@
 
     .experiencia__date{
         padding-right: 10px;
+        margin-left: 30px;
     }
 
     .experiencia__h4{
@@ -69,11 +70,11 @@
   color: var(--color-secundario);
   margin:0px;
   text-transform: uppercase;
-  width: 124px;
+  width: 80px;
 } 
 
 .experiencia__detalles{
-    margin-left: 0px;
+    margin-left: 10px;
     width: 367px;
 }
 
