@@ -1,11 +1,11 @@
 <script>
   import Cabecera from "./components/Cabecera.svelte";
-  import Menu from "./components/Menu.svelte";
   import Variables from "./components/Variables.svelte";
+  import "@materializecss/materialize/dist/css/materialize.css";
+
 </script>
 
 <Variables />
-<Menu/>
 
 <section class="cabecera" id="cebecera">
     <Cabecera />

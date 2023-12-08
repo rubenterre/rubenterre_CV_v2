@@ -21,8 +21,8 @@
 <Variables />
 
 <section id="noticias">
-  <div class="noticias__titulo">
-    <h2 class="noticias__h2">NOTICIAS</h2>
+  <div class="titulo">
+    <h2 class="titulo__h2">NOTICIAS</h2>
   </div>
   <div class="noticias columns is-mobile">
     {#each noticias as item}
@@ -55,21 +55,22 @@
 </section>
 
 <style>
-  .noticias {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  .noticias__titulo {
-    margin: 50px 0px;
-  }
+.titulo{
+        margin: 30px 0px;
+    }
 
-  .noticias__h2 {
-    font-family: var(--fuente-semibold);
-    font-size: 0.8rem;
+    .titulo__h2{
+        font-family: var(--fuente-semibold);
+    font-size: 1rem;
     font-weight: normal;
     color: white;
     margin: 0px;
+    }
+
+  .noticias {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .noticias__tarjeta {

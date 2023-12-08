@@ -35,4 +35,5 @@
         --fuente-medium: Poppins-Medium;
         --fuente-semibold: Poppins-Semi;   
     }
+
 </style>

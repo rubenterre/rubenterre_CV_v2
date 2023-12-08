@@ -26,6 +26,7 @@
   </div>
 
   <style>
+    
 
   .cabecera__principal {
     display: flex;
@@ -76,12 +77,15 @@
 		width: 498px;
 	} */
 
+  .cabecera__descripcion{
+    margin-bottom: 20px;
+  }
+
   .cabecera__p {
     font-family: var(--fuente-regular);
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: normal;
     color: var(--color-secundario);
-    padding-top: 16px;
     margin: 0px;
     padding: 0px;
     line-height: 1.43;
