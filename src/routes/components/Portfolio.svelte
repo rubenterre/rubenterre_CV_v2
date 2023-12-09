@@ -12,7 +12,7 @@
     {
       img: "img/portfolio/Os_Viquingos_na_comarca_do_salnes_iPhone12_Mockup.png",
       alt: "Imagen del libro de Os viquingos na comarca do Salnés",
-      proyecto: "Os Viquingos na comarca do Salnés - Libro",
+      proyecto: "Os Viquingos na comarca do Salnés - Publicación editorial",
       descripcion:
         "Edición editorial de esta publicación sobre los vikingos en la comarca del Salnés. Editado por Urco Editora y con la colaboración de la Mancomunidade do Salnés.",
       web: "https://urcoeditora.com/titulos/os-viquingos-na-comarca-do-salnes/",
@@ -47,29 +47,34 @@
 <Variables />
 
 <section id="portfolio">
-  <div class="portfolio__titulo">
-    <h2 class="portfolio__h2">PORTFOLIO</h2>
+  <div class="titulo">
+    <h2 class="titulo__h2">PORTFOLIO</h2>
   </div>
-  <div class="portfolio columns is-mobile">
-    {#each portfolio as item}
-    <div class="column is-half">
-        <div class="portfolio__tarjeta">
-          <div class="portfolio__img">
-            <img src={item.img} alt={item.alt} />
-          </div>
-          <div class="portfolio__detalle">
-            <a href={item.web}>
-              <h3 class="portfolio__h3">
-                {item.proyecto}<img src="./flecha.svg" alt="flecha de enlace" />
-              </h3>
-            </a>
-            <p class="portfolio__p">
-              {item.descripcion}
-            </p>
+  <div class="portfolio">
+    <div class="row">
+      {#each portfolio as item}
+        <div class="col s12 m6 porfolio__item">
+          <div class="portfolio__tarjeta">
+            <div class="portfolio__detalle">
+              <a href={item.web}>
+                <h3 class="portfolio__h3">
+                  {item.proyecto}<img
+                    src="./flecha.svg"
+                    alt="flecha de enlace"
+                  />
+                </h3>
+              </a>
+              <p class="portfolio__p">
+                {item.descripcion}
+              </p>
+            </div>
+            <div class="portfolio__img">
+              <img src={item.img} alt={item.alt} />
+            </div>
           </div>
         </div>
-      </div>
-        {/each}
+      {/each}
+    </div>
   </div>
   <div class="portfolio__enlace">
     <a class="portfolio__a" href="#"
@@ -79,30 +84,29 @@
 </section>
 
 <style>
+  .titulo {
+    margin: 30px 0px;
+  }
 
-    .portfolio{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .portfolio__titulo{
-        margin: 50px 0px;
-    }
-
-  .portfolio__h2 {
+  .titulo__h2 {
     font-family: var(--fuente-semibold);
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: normal;
     color: white;
     margin: 0px;
   }
 
-  .portfolio__tarjeta {
-    margin: 10px 0px;
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .portfolio__img {
-    width: 134px;
+  .portfolio__tarjeta {
+    margin: 10px 20px 10px 0px;
+  }
+
+  .portfolio__img img {
+    width: 200px;
   }
 
   .portfolio__h3 img {
@@ -113,23 +117,41 @@
     width: 303px;
   } */
 
+  .porfolio__item {
+    margin-bottom: 20px;
+  }
+
   .portfolio__h3 {
-    font-family: var(--fuente-regular);
-    font-size: .8rem;
+    font-family: var(--fuente-semibold);
+    font-size: 1.1rem;
     color: white;
     margin: 0px;
+    line-height: 160%;
+  }
+
+  .portfolio__h3:hover {
+    font-family: var(--fuente-regular);
+    font-size: 1.1rem;
+    color: var(--color-terciario);
+    margin: 0px;
+    line-height: 160%;
   }
 
   .portfolio__p {
     font-family: var(--fuente-regular);
     color: var(--color-secundario);
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1.625;
   }
 
   .portfolio__a {
     font-family: var(--fuente-regular);
-    font-size: .8rem;
+    font-size: 1rem;
     color: white;
   }
+
+  .portfolio__enlace{
+    margin-bottom: 30px;
+  }
+  
 </style>

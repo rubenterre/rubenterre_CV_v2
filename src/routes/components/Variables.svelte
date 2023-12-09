@@ -25,6 +25,8 @@
 }
 
     :root{
+        font-size: 14px;
+        
         --color-principal: #10172a;
         --color-secundario: #8e9db2;
         --color-terciario: #5eead3;
@@ -35,4 +37,5 @@
         --fuente-medium: Poppins-Medium;
         --fuente-semibold: Poppins-Semi;   
     }
+
 </style>

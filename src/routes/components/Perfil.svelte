@@ -3,10 +3,11 @@
 </script>
 
 <Variables />
-<section class="perfil">
-  <div class="columns is-desktop">
-    <div class="column">
-        <p class="perfil__p">
+<div class="titulo">
+  <h2 class="titulo__h2">PERFIL</h2>
+</div>
+<section class="perfil row">
+        <p class="perfil__p col s12 m6">
     Hoy día existe una gran cantidad de medios y soportes en los que vemos a
     diario trabajos de <span class="perfil__span">diseño gráfico</span>. De
     hecho, estos son tan abundantes que muchas veces apenas nos damos cuenta de
@@ -14,9 +15,7 @@
     letras de una bolsa o la estructura de una factura son prueba de esa
     presencia omnipresente del diseño.
   </p>
-    </div>
-    <div class="column">
-        <p class="perfil__p">
+        <p class="perfil__p col s12 m6">
     En el ámbito digital cobra especial importancia el desarrollo web. En esta
     área la <span class="perfil__span">docencia</span> no se limita a la transmisión
     de habilidades técnicas; va más allá, formando a individuos capaces de plasmar
@@ -26,24 +25,34 @@
       >desarrollo web</span
     >, tiene el poder de inspirar y cautivar.
   </p>
-    </div>
-  </div>
 
 
 </section>
 
 <style>
+
+.titulo{
+        margin: 20px 0px;
+    }
+
+    .titulo__h2{
+        font-family: var(--fuente-semibold);
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+    margin: 0px;
+    }
+
   .perfil {
     margin-bottom: 20px;
   }
 
   .perfil__p {
     font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: normal;
     color: var(--color-secundario);
-    padding-top: 16px;
-    margin: 20px 0px 0px 0px;
+    margin-right: 20px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -55,7 +64,7 @@
 
   .perfil__span {
     font-family: var(--fuente-semi);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: normal;
     color: white;
     line-height: 1.625;

@@ -85,9 +85,9 @@
 
 <Variables />
 
-<div class="experiencia__titulo">
+<div class="educacion__titulo">
   <div>
-    <h2 class="experiencia__h2">EDUCACIÓN</h2>
+    <h2 class="titulo__h2">EDUCACIÓN</h2>
   </div>
   <div>
     <img
@@ -125,22 +125,31 @@
 </section>
 
 <style>
+
+    .titulo__h2{
+        font-family: var(--fuente-semibold);
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+    margin: 0px;
+    }
+
   #educacion {
     overflow-x: auto;
     /* white-space: nowrap; */
     display: flex;
   }
 
-  .experiencia__titulo {
+  .educacion__titulo {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin: 30px 0px;
   }
 
   .educacion {
     display: flex;
     justify-content: center;
-    margin: 40px 20px;
+    margin: 20px 20px;
   }
 
   .educacion__date {
@@ -149,7 +158,7 @@
 
   .educacion__h4 {
     font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: normal;
     color: var(--color-secundario);
     margin: 0px;
@@ -159,20 +168,12 @@
 
   .educacion__detalles {
     margin-left: 0px;
-    width: 367px;
-  }
-
-  .experiencia__h2 {
-    font-family: var(--fuente-semibold);
-    font-size: 0.8rem;
-    font-weight: normal;
-    color: white;
-    margin: 0px;
+    width: 387px;
   }
 
   .educacion__h3 {
-    font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-family: var(--fuente-semibold);
+    font-size: 1rem;
     font-weight: normal;
     color: white;
     margin: 0px;
@@ -180,9 +181,9 @@
 
   .educacion__h3:hover {
     font-family: var(--fuente-semibold);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: normal;
-    color: white;
+    color: var(--color-terciario);
     margin: 0px;
   }
 
@@ -191,16 +192,17 @@
   }
 
   .educacion__tipo {
-    font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-family: var(--fuente-semibold);
+    font-size: 1rem;
     font-weight: normal;
     color: var(--color-secundario);
     margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .educacion__institucion {
-    font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-family: var(--fuente-semibold);
+    font-size: 1rem;
     font-weight: normal;
     color: var(--color-secundario);
     margin-top: 5px;
@@ -209,7 +211,7 @@
 
   .educacion__descripcion {
     font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--color-secundario);
     font-weight: normal;
     font-stretch: normal;
@@ -218,23 +220,23 @@
     letter-spacing: normal;
   }
 
-  .pills {
+  .pills{
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
-  .pills__contenedor {
-    margin: 5px 5px 5px 0px;
-    padding: 0.25rem 0.75rem;
-    border-radius: 9999px;
-    background-color: var(--color-cuaternario);
-  }
+.pills__contenedor{
+  margin: 5px 5px 5px 0px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  background-color: var(--color-cuaternario);
+}
 
-  .pills__p {
+.pills__p{
     font-family: var(--fuente-regular);
-    font-size: 0.7rem;
+    font-size: .8rem;
     color: var(--color-terciario);
-    padding: 0.25rem 0.75rem;
+    padding: 0.2rem 0.25rem;
     margin: 0px;
-  }
+}
 </style>

@@ -12,7 +12,7 @@
 
 <div class="experiencia__titulo">
     <div>
-        <h2 class="experiencia__h2">EXPERIENCIA</h2>
+        <h2 class="titulo__h2">EXPERIENCIA</h2>
     </div>
     <div>
         <img src="combined-shape@2x.webp" alt="Flecha que indica que te puedes mover el scroll de forma horizontal" title="Flecha que indica que te puedes mover de forma horizontal">
@@ -40,6 +40,18 @@
 {/each}
 </section>
 <style>
+    .titulo{
+        margin: 30px 0px;
+    }
+
+    .titulo__h2{
+        font-family: var(--fuente-semibold);
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+    margin: 0px;
+    }
+
     #experiencia{
     overflow-x: auto;
     /* white-space: nowrap; */
@@ -78,17 +90,9 @@
     width: 367px;
 }
 
-.experiencia__h2{
-    font-family: var(--fuente-semibold);
-    font-size: 0.8rem;
-  font-weight: normal;
-  color: white;
-  margin:0px;
-}
-
 .experiencia__h3{
     font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-size: 1rem;
   font-weight: normal;
   color: white;
   margin:0px;
@@ -96,9 +100,9 @@
 
 .experiencia__h3:hover{
     font-family: var(--fuente-semibold);
-    font-size: 0.8rem;
+    font-size: 1rem;
   font-weight: normal;
-  color: white;
+  color: var(--color-terciario);
   margin:0px;
 }
 
@@ -107,8 +111,8 @@
 }
 
 .experiencia__profesion{
-    font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-family: var(--fuente-semibold);
+    font-size: 0.9rem;
   font-weight: normal;
   color: var(--color-secundario);
   margin-top: 5px;
@@ -116,7 +120,7 @@
 
 .experiencia__descripcion{
     font-family: var(--fuente-regular);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   color: var(--color-secundario);
   font-weight: normal;
   font-stretch: normal;
@@ -139,9 +143,9 @@
 
 .pills__p{
     font-family: var(--fuente-regular);
-    font-size: .7rem;
+    font-size: .8rem;
     color: var(--color-terciario);
-    padding: 0.25rem 0.75rem;
+    padding: 0.2rem 0.25rem;
     margin: 0px;
 }
 </style>

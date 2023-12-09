@@ -1,11 +1,11 @@
 <script>
   import Cabecera from "./components/Cabecera.svelte";
-  import Menu from "./components/Menu.svelte";
   import Variables from "./components/Variables.svelte";
+  import "@materializecss/materialize/dist/css/materialize.css";
+
 </script>
 
 <Variables />
-<Menu/>
 
 <section class="cabecera" id="cebecera">
     <Cabecera />
@@ -14,7 +14,8 @@
 
 <style>
   :global(body) {
-    background-color: var(--color-principal);
+    background: var(--color-principal);
+    background: linear-gradient(90deg, rgba(16,23,42,1) 0%, rgba(16,23,42,1) 80%, rgb(25, 35, 64) 100%);
     color: var(--color-secundario);
     font-family: var(--fuente-regular);
     font-size: 14px;
