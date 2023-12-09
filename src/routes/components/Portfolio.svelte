@@ -12,7 +12,7 @@
     {
       img: "img/portfolio/Os_Viquingos_na_comarca_do_salnes_iPhone12_Mockup.png",
       alt: "Imagen del libro de Os viquingos na comarca do Salnés",
-      proyecto: "Os Viquingos na comarca do Salnés - Libro",
+      proyecto: "Os Viquingos na comarca do Salnés - Publicación editorial",
       descripcion:
         "Edición editorial de esta publicación sobre los vikingos en la comarca del Salnés. Editado por Urco Editora y con la colaboración de la Mancomunidade do Salnés.",
       web: "https://urcoeditora.com/titulos/os-viquingos-na-comarca-do-salnes/",
@@ -122,23 +122,25 @@
   }
 
   .portfolio__h3 {
-    font-family: var(--fuente-regular);
-    font-size: 1rem;
+    font-family: var(--fuente-semibold);
+    font-size: 1.1rem;
     color: white;
     margin: 0px;
+    line-height: 160%;
   }
 
   .portfolio__h3:hover {
     font-family: var(--fuente-regular);
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--color-terciario);
     margin: 0px;
+    line-height: 160%;
   }
 
   .portfolio__p {
     font-family: var(--fuente-regular);
     color: var(--color-secundario);
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.625;
   }
 
