@@ -3,7 +3,7 @@
 
 </script>
 <div class="cabecera__titulo">
-    <div class="cabecera__principal">
+    <a href="/"><div class="cabecera__principal">
       <div class="cabecera__logo">
         <img
           src="./Logo_RubenTerre_blanco.svg"
@@ -16,6 +16,7 @@
         <h2 class="cabecera__lema">Desarrollo web & docencia</h2>
       </div>
     </div>
+  </a>
     <div class="cabecera__descripcion">
       <p class="cabecera__p cabecera__p--descripcion">
         Inspirando conocimiento, creando diseño y desarrollando la web.

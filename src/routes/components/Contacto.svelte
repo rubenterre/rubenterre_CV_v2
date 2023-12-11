@@ -129,10 +129,10 @@
             <span
               >Soy mayor de 16 años. Acepto el tratamiento de mis datos en los
               términos abajo indicados, con la finalidad de gestionar mi
-              suscripción, y confirmo haber leído y aceptado la <a href=""
+              suscripción, y confirmo haber leído y aceptado la <a href="/privacidad"
                 >Política de Privacidad</a
               >.<br />
-              <a href="">Información del tratamiento de datos personales.</a
+              <a href="/privacidad">Información del tratamiento de datos personales.</a
               ></span
             >
           </label>
