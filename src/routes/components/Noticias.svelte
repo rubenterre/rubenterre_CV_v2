@@ -73,11 +73,11 @@
       {/each}
     </div>
   </div>
-  <div class="noticias__enlace">
+  <!-- <div class="noticias__enlace">
     <a class="noticias__a" href="#"
       >Ver más trabajos <img src="./flecha.svg" alt="flecha de enlace" /></a
     >
-  </div>
+  </div> -->
 </section>
 
 <style>
@@ -93,10 +93,10 @@
     margin: 0px;
   }
 
-  .noticias {
+  /* .noticias {
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
 
   .noticias__img {
     width: 134px;

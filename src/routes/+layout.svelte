@@ -15,12 +15,30 @@
 <style>
   :global(body) {
     background: var(--color-principal);
-    background: linear-gradient(90deg, rgba(16,23,42,1) 0%, rgba(16,23,42,1) 80%, rgb(25, 35, 64) 100%);
-    color: var(--color-secundario);
+  margin: auto;
+  overflow: auto;
+  background: radial-gradient(#122251, #10172a);
+  /* animation: gradient 15s ease infinite; */
+  /* background-size: 400% 400%;
+  background-attachment: fixed; */
+  color: var(--color-secundario);
     font-family: var(--fuente-regular);
     font-size: 14px;
     padding: 10px 5%;
+}
+/* 
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
   }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+} */
+
 
   :global(a) {
     color: white;

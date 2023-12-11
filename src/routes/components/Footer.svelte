@@ -10,9 +10,9 @@ import Variables from "./Variables.svelte";
     <div class="row">
         <div class="col s12 m6 left">
       <p class="footer__p">
-      Diseñado con <span>Sketch</span> y desarrollado con <span>Visual Studio Code</span> a través de
-      <span>Zeplin</span>. Codificado con <span>Sveltekit</span>, despliegue en <span>Netlify</span>. La tipografía
-      usada es la <span>Poppins</span>.
+      Diseñado con <a href="https://www.sketch.com/" target="_blank" rel="noopener noreferrer"><span>Sketch</span></a> y desarrollado con <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer"><span>Visual Studio Code</span></a> a través de
+      <a href="https://zeplin.io/" target="_blank" rel="noopener noreferrer"><span>Zeplin</span></a>. Codificado con <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"><span>Sveltekit</span></a>, despliegue en <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer"><span>Netlify</span></a>. La tipografía
+      usada es la <a href="https://fonts.google.com/specimen/Poppins" target="_blank" rel="noopener noreferrer"><span>Poppins</span></a>.
     </p>
         </div>
         <div class="col s12 m6">
@@ -64,7 +64,7 @@ span{
     margin-top: 30px;
 }
 
-@media screen and (max-width:568px){
+@media screen and (max-width:600px){
     .redes{
         display: flex;
         justify-content: center;
