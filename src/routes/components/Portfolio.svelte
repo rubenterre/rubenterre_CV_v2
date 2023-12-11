@@ -41,6 +41,14 @@
         "Diseño y desarrollo de la web corporativa de  ADM Comunicaciones. Diseñada con Photoshop y desarrollada con WordPress utilizando el builder Divi y WooCommerce.",
       web: "https://www.admcomunicaciones.com/",
     },
+    {
+      img: "img/portfolio/MieresBalsan_iPhone12_Mockup.png",
+      alt: "Imagen del diseño de logo de Mieres & Balsan",
+      proyecto: "Mieres & Balsan",
+      descripcion:
+        "Diseño del isologo de Mieres & Balsan realizado con Adobe Illustrator. Imagen corporativa de la empresa de asesores Mieres & Balsan.",
+      web: "https://mieresasesores.com/",
+    },
   ];
 </script>
 
@@ -119,6 +127,13 @@
 
   .porfolio__item {
     margin-bottom: 20px;
+    padding: 20px 20px;
+  }
+
+  .porfolio__item:hover{
+    padding: 20px 20px;
+        background: rgba(128, 128, 128, 0.084);
+        border-radius: 5px;
   }
 
   .portfolio__h3 {

@@ -5,35 +5,35 @@
       date: "2017",
       img: "img/noticias/A_Vivir_Galicia_Ruben_Terre.png",
       alt: "Imagen de Radio Galega",
-      titular: "Entrevista en Radio galega",
+      titular: "Entrevista en el programa 'Coñecer Galicia' de Radio galega",
       web: "http://www.crtvg.es/rg/a-carta/conecer-galicia-conecer-galicia-do-dia-21-01-2017-2650682",
     },
     {
       date: "2016",
       img: "img/noticias/Faro_De_Vigo_1_Ruben_Terre.png",
       alt: "Imagen del Faro de Vigo",
-      titular: "Curso de verano en la USC",
+      titular: "Curso de verano de la Universidade de Santiago de Compostela",
       web: "https://www.farodevigo.es/arousa/2016/07/10/vista-real-profundiza-historia-comarca-16562686.html",
     },
     {
       date: "2016",
       img: "img/noticias/Entrevista_Faro_de_Vigo_Ruben_Terre.png",
       alt: "Imagen de entrevista en el Faro de Vigo",
-      titular: "Entrevista en el Faro de Vigo",
+      titular: "Entrevista en el periódico Faro de Vigo",
       web: "http://www.farodevigo.es/portada-arousa/2016/07/11/ruben-terre-ria-arousa-puerta/1496290.html",
     },
     {
       date: "2016",
       img: "img/noticias/Canal_7_Ruben_Terre.png",
       alt: "Imagen de presentación del libro 'Os viquingos na comarca do Salnés' en Cambados",
-      titular: "Presentación del libro",
+      titular: "Presentación del libro 'Os viquingos na comarca do Salnés",
       web: "http://www.canalriasbaixas.com/index.php/cultura/item/19894-a-mancomunidade-aposta-polo-pasado-vikingo-do-salnes-como-atractivo-cultural-e-turistico",
     },
     {
       date: "2016",
       img: "img/noticias/Presentacion_Faro_de_Vigo_Ruben_Terre.png",
       alt: "Imagen de presentación del libro 'Os viquingos na comarca do Salnés' y entrevista en Faro de Vigo",
-      titular: "Entrevista en Faro de Vigo",
+      titular: "Entrevista en Faro de Vigo sobre los vikingos en Galicia",
       web: "https://www.farodevigo.es/arousa/2016/07/11/ruben-terre-ria-arousa-puerta-16562154.html",
     },
     {
@@ -109,7 +109,15 @@
 
   .noticias__card{
     display: flex;
-    margin-bottom: 30px;
+    margin: 15px 10px;
+    padding: 10px 10px;
+  }
+
+  .noticias__card:hover{
+    margin: 15px 10px;
+    padding: 10px 10px;
+        background: rgba(128, 128, 128, 0.084);
+        border-radius: 5px;
   }
 
   .noticias__h3 img {
@@ -123,6 +131,7 @@
   .noticias__h3 {
     font-family: var(--fuente-regular);
     font-size: 1rem;
+    line-height: 1.3;
     color: white;
     margin: 0px;
   }
@@ -132,6 +141,7 @@
     font-size: 1rem;
     color: var(--color-terciario);
     margin: 0px;
+    line-height: 1.3;
   }
 
   .noticias__p {

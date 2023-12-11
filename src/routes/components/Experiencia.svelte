@@ -68,6 +68,16 @@
         display: flex;
         justify-content: center;
         margin: 40px 0px;
+        padding: 10px 0px;
+    }
+
+    .experiencia:hover{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px;
+        padding: 10px 0px;
+        background: rgba(128, 128, 128, 0.084);
+        border-radius: 5px;
     }
 
     .experiencia__date{
@@ -139,6 +149,7 @@
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
   background-color: var(--color-cuaternario);
+  border: 0.5px solid var(--color-terciario);
 }
 
 .pills__p{
