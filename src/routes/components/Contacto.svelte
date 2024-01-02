@@ -131,8 +131,6 @@
               términos abajo indicados, con la finalidad de gestionar mi
               suscripción, y confirmo haber leído y aceptado la <a href="/privacidad"
                 >Política de Privacidad</a
-              >.<br />
-              <a href="/privacidad">Información del tratamiento de datos personales.</a
               ></span
             >
           </label>
@@ -213,6 +211,12 @@
     font-family: var(--fuente-regular);
     font-size: 1rem;
     color: var(--color-secundario);
+  }
+
+  a{
+    font-family: var(--fuente-regular);
+    font-size: 1rem;
+    color: white;
   }
 
   a:hover {

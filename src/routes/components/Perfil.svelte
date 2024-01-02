@@ -69,4 +69,21 @@
     color: white;
     line-height: 1.625;
   }
+
+  @media screen and (max-width:568px){
+    .perfil__p {
+    font-family: var(--fuente-regular);
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--color-secundario);
+    margin-right: 0px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.625;
+    letter-spacing: normal;
+    flex-grow: 1;
+    text-align: justify;
+  }
+  }
 </style>

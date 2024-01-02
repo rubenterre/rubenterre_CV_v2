@@ -100,10 +100,8 @@
 <section id="educacion">
   {#each educacion as item}
     <div class="educacion">
-      <div class="educacion__date">
-        <h4 class="educacion__h4">{item.date}</h4>
-      </div>
       <div class="educacion__detalles">
+        <h4 class="educacion__h4">{item.date}</h4>
         <h3 class="educacion__h3">
           <a class="educacion__h3" href={item.web}
             >{item.titulo}<img src="./flecha.svg" alt="flecha de enlace" /></a
@@ -149,15 +147,15 @@
   .educacion {
     display: flex;
     justify-content: center;
-    margin: 20px 0px;
-    padding: 10px 10px;
+    margin: 20px 10px;
+    padding: 10px 20px;
   }
 
   .educacion:hover{
-    padding: 10px 0px;
         background: rgba(128, 128, 128, 0.084);
         border-radius: 5px;
-        padding: 10px 10px;
+        margin: 20px 10px;
+        padding: 10px 20px;
   }
 
   .educacion__date {
@@ -170,8 +168,8 @@
     font-weight: normal;
     color: var(--color-secundario);
     margin: 0px;
+    padding: 10px 0px;
     text-transform: uppercase;
-    width: 80px;
   }
 
   .educacion__detalles {

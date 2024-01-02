@@ -62,7 +62,7 @@
             </div>
             <div class="noticias__detalle">
               <p class="noticias__p">{item.date}</p>
-              <a href="{item.web}">
+              <a target="_blank" rel="noopener noreferrer" href="{item.web}">
               <h3 class="noticias__h3">
                 {item.titular} <img src="./flecha.svg" alt="flecha de enlace" />
               </h3>

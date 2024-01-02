@@ -21,10 +21,8 @@
 <section id="experiencia">
 {#each experiencia as item }
 <div class="experiencia">
-    <div class="experiencia__date">
-        <h4 class="experiencia__h4">{item.date}</h4>
-    </div>
     <div class="experiencia__detalles">
+        <h4 class="experiencia__h4">{item.date}</h4>
         <h3 class="experiencia__h3"><a class="experiencia__h3" href="{item.web}">{item.empresa}<img src="./flecha.svg" alt="flecha de enlace"></a></h3>
         <p class="experiencia__profesion">{item.profesion}</p>
         <p class="experiencia__descripcion">{item.descripcion}</p>
@@ -40,9 +38,6 @@
 {/each}
 </section>
 <style>
-    .titulo{
-        margin: 30px 0px;
-    }
 
     .titulo__h2{
         font-family: var(--fuente-semibold);
@@ -67,22 +62,17 @@
     .experiencia{
         display: flex;
         justify-content: center;
-        margin: 40px 0px;
-        padding: 10px 0px;
+        margin: 40px 10px;
+        padding: 10px 10px;
     }
 
     .experiencia:hover{
         display: flex;
         justify-content: center;
-        margin: 40px 0px;
-        padding: 10px 0px;
+        margin: 40px 10px;
+        padding: 10px 10px;
         background: rgba(128, 128, 128, 0.084);
         border-radius: 5px;
-    }
-
-    .experiencia__date{
-        padding-right: 10px;
-        margin-left: 30px;
     }
 
     .experiencia__h4{
@@ -92,7 +82,7 @@
   color: var(--color-secundario);
   margin:0px;
   text-transform: uppercase;
-  width: 80px;
+  padding: 10px 0px;
 } 
 
 .experiencia__detalles{
