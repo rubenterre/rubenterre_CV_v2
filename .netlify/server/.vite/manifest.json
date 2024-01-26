@@ -1,0 +1,140 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "Footer.css": {
+    "file": "_app/immutable/assets/Footer.ce7cc9fa.css",
+    "src": "Footer.css"
+  },
+  "Variables.css": {
+    "file": "_app/immutable/assets/Variables.5c6925be.css",
+    "src": "Variables.css"
+  },
+  "_Footer.js": {
+    "css": [
+      "_app/immutable/assets/Footer.ce7cc9fa.css"
+    ],
+    "file": "chunks/Footer.js",
+    "imports": [
+      "_ssr.js",
+      "_Variables.js"
+    ]
+  },
+  "_Variables.js": {
+    "css": [
+      "_app/immutable/assets/Variables.5c6925be.css"
+    ],
+    "file": "chunks/Variables.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout.8af5dea7.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+layout.svelte": {
+    "assets": [
+      "_app/immutable/assets/Poppins-SemiBold.248c0244.ttf",
+      "_app/immutable/assets/Poppins-Medium.8d909883.ttf",
+      "_app/immutable/assets/Poppins-Regular.707fdc5c.ttf",
+      "_app/immutable/assets/Poppins-Light.647f014d.ttf",
+      "_app/immutable/assets/Poppins-Italic.3225cec6.ttf"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.8af5dea7.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Variables.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page.779d544a.css",
+    "src": "src/routes/+page.css"
+  },
+  "src/routes/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.779d544a.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Variables.js",
+      "_Footer.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/privacidad/+page.css": {
+    "file": "_app/immutable/assets/_page.8a269b81.css",
+    "src": "src/routes/privacidad/+page.css"
+  },
+  "src/routes/privacidad/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.8a269b81.css"
+    ],
+    "file": "entries/pages/privacidad/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Footer.js",
+      "_Variables.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacidad/+page.svelte"
+  },
+  "static/fonts/Poppins-Italic.ttf": {
+    "file": "_app/immutable/assets/Poppins-Italic.3225cec6.ttf",
+    "src": "static/fonts/Poppins-Italic.ttf"
+  },
+  "static/fonts/Poppins-Light.ttf": {
+    "file": "_app/immutable/assets/Poppins-Light.647f014d.ttf",
+    "src": "static/fonts/Poppins-Light.ttf"
+  },
+  "static/fonts/Poppins-Medium.ttf": {
+    "file": "_app/immutable/assets/Poppins-Medium.8d909883.ttf",
+    "src": "static/fonts/Poppins-Medium.ttf"
+  },
+  "static/fonts/Poppins-Regular.ttf": {
+    "file": "_app/immutable/assets/Poppins-Regular.707fdc5c.ttf",
+    "src": "static/fonts/Poppins-Regular.ttf"
+  },
+  "static/fonts/Poppins-SemiBold.ttf": {
+    "file": "_app/immutable/assets/Poppins-SemiBold.248c0244.ttf",
+    "src": "static/fonts/Poppins-SemiBold.ttf"
+  }
+}
